@@ -10,5 +10,5 @@ public class Respawn : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         player.transform.position = respawnPoint.transform.position;
-    }
+   }
 }
